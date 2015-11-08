@@ -1,8 +1,15 @@
 extends layout
 
 block content
-   input#search(type="search", placeholder="Search Craig's Jobs")
-   h2#results
+   div(ng-view)
 
-   script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
-   script(src="/javascripts/main.js")
+   script(src="/javascripts/dependencies/jquery.js")
+   script(src="/javascripts/dependencies/bootstrap.js")
+
+   script(src="/javascripts/dependencies/angular.js")
+   script(src="/javascripts/dependencies/angular-route.js")
+   script(src="/javascripts/dependencies/Chart.js")
+   script(src="/javascripts/dependencies/angular-chart.js")
+   script(src="/javascripts/app.js")
+
+   script(src="/javascripts/controllers/MetricsCtrl.js")

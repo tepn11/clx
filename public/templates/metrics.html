@@ -1,0 +1,48 @@
+<div class="container">
+
+  <div class="page-title row hidden-xs">
+    <div class="col-md-offset-1 col-sm-10 col-md-8">
+      <h1>
+        CL Metrics
+      </h1>
+    </div>
+  </div>
+
+  <div class="row metrics-container">
+    <div class="col-xs-12 col-md-offset-1 col-md-10">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Prices</div>
+            <canvas class="chart chart-pie" chart-data="prices.data" chart-labels="prices.labels" chart-legend="true">
+            </canvas>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Mileage</div>
+            <canvas class="chart chart-pie" chart-data="mileage.data" chart-labels="mileage.labels" chart-legend="true">
+            </canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row metrics-container">
+    <div class="col-xs-12 col-md-offset-1 col-md-10">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">Brands Sales - 6 months data</div>
+            <canvas class="chart chart-bar" chart-data="brands.data" chart-labels="brands.labels" chart-legend="true"
+              chart-series="brands.series">
+            </canvas>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+</div>
